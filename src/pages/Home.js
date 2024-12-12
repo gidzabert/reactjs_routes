@@ -1,11 +1,9 @@
 import Header from '../components/Header';
-import Nav from "../components/Nav";
 
 function Home () {
 
     return (
         <section>
-            <Nav />
             <div   class="flex container">
                 <h1>Home</h1>
                 <div class="items w-100 m-20">
