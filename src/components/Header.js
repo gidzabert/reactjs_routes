@@ -5,12 +5,8 @@ import Button from "./Button";
 export function Header ({ title, btnTitle, onShowTaskAddForm }) {
 
     return (
-        <header className="header">
-            <h2>{ title }</h2>
-            <Button 
-                title={btnTitle ? 'Close' : 'Add'} 
-                color={btnTitle ? 'red' : 'steelblue'} 
-                onClick={onShowTaskAddForm} className="btn" />
+        <header class="flex header mb-20">
+            <div class="p-20"><h1>Flex Box Heading</h1></div>
         </header>
     )
 }
